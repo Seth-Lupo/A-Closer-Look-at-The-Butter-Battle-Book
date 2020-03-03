@@ -1,0 +1,65 @@
+body {
+
+	background: rgb(255, 248, 253);
+
+
+}
+
+div {
+
+
+
+}
+
+#bannerDiv {
+
+	font-family: "Pacifico";
+
+	position: fixed;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+
+	text-align: center;
+	background: rgb(250, 237, 240);
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	box-shadow: 5px 5px 50px rgb(235, 200, 220);
+
+}
+
+
+#articleDiv {
+
+	max-width: 500px;
+	margin: 120px auto 100px auto;
+	font-family: 'Noto Sans JP';
+}
+
+#authorDiv {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	margin-top: 50px;
+
+}
+
+.articleDivItem {
+
+	padding-bottom: 5px;
+
+
+}
+
+article {
+
+	margin-top: 50px;
+
+}
